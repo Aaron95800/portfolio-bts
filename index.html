@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio BTS SIO SLAM - Mon Nom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#" class="logo">&lt;MonNom / SLAM&gt;</a>
+      <ul class="nav-links">
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Tableau E4</a></li>
+        <li><a href="#veille">Veille Tech</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <div class="hero">
+    <h1>Développeur Web & Applicatif</h1>
+    <p>Étudiant en BTS SIO option SLAM - Présentation des réalisations professionnelles et compétences informatiques.</p>
+    <a href="#projets" class="btn">Voir mes projets</a>
+  </div>
+
+
+  <section id="projets">
+    <h2>Réalisations Professionnelles</h2>
+    
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Tous</button>
+      <button class="filter-btn" data-filter="stage">Stages</button>
+      <button class="filter-btn" data-filter="ecole">Projets École / AP</button>
+      <button class="filter-btn" data-filter="perso">Projets Perso</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="card" data-category="stage">
+        <div>
+          <h3>Application de Gestion de Stock</h3>
+          <p>Développement d'une application interne d'inventaire avec gestion des rôles et génération de rapports PDF.</p>
+          <div class="tags">
+            <span class="tag">PHP / PDO</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap</span>
+          </div>
+        </div>
+        <a href="#" class="btn" style="text-align: center; margin-top: 1rem;">Voir la fiche E4</a>
+      </div>
+
+      <div class="card" data-category="ecole">
+        <div>
+          <h3>Gestionnaire de Billetterie C#</h3>
+          <p>Application lourde en C# (.NET / WPF) connectée à une BDD PostgreSQL pour la réservation de places d'événements.</p>
+          <div class="tags">
+            <span class="tag">C# .NET</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">UML / MCD</span>
+          </div>
+        </div>
+        <a href="#" class="btn" style="text-align: center; margin-top: 1rem;">Voir la fiche E4</a>
+      </div>
+
+      <div class="card" data-category="perso">
+        <div>
+          <h3>API REST & Dashboard React</h3>
+          <p>Conception d'une API REST sécurisée avec authentification JWT et interface utilisateur sous React.</p>
+          <div class="tags">
+            <span class="tag">Node.js / Express</span>
+            <span class="tag">React</span>
+            <span class="tag">JWT / OWASP</span>
+          </div>
+        </div>
+        <a href="#" class="btn" style="text-align: center; margin-top: 1rem;">Voir la fiche E4</a>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="competences">
+    <h2>Tableau de Synthèse (Épreuve E4)</h2>
+    <p style="color: var(--text-muted); margin-bottom: 1rem;">
+      Couverture des compétences du référentiel BTS SIO SLAM à travers mes projets.
+    </p>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Compétences du Référentiel</th>
+            <th>Gestion de Stock</th>
+            <th>Billetterie C#</th>
+            <th>API REST React</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Gérer le patrimoine informatique</td>
+            <td><span class="badge"></span></td>
+            <td></td>
+            <td><span class="badge"></span></td>
+          </tr>
+          <tr>
+            <td>Répondre aux incidents et aux demandes d'assistance</td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Développer la présence en ligne de l'organisation</td>
+            <td><span class="badge"></span></td>
+            <td></td>
+            <td><span class="badge"></span></td>
+          </tr>
+          <tr>
+            <td>Travailler en mode projet</td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+          </tr>
+          <tr>
+            <td>Mettre à disposition des utilisateurs un service informatique</td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+          </tr>
+          <tr>
+            <td>Organiser son développement professionnel (Veille)</td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+            <td><span class="badge"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+
+  <section id="veille">
+    <h2>Veille Technologique</h2>
+    <div class="card">
+      <h3>Sujet : L'impact de l'IA Générative dans le Développement Logiciel</h3>
+      <p>Étude des outils d'assistance au code (GitHub Copilot, LLM locaux) et leur intégration dans le cycle de vie applicatif.</p>
+      <div class="tags" style="margin-top: 1rem;">
+        <span class="tag">Outils : Feedly, Inoreader, GitHub Trending</span>
+        <span class="tag">Fréquence : Hebdomadaire</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Mon Nom - Portfolio BTS SIO SLAM | Hébergé sur GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
